@@ -3,6 +3,8 @@ extends layout
 block content
   h1= title
   p Welcome to #{title}
+  .button-container 
+    a(href=`http://localhost:${process.env.PORT || 3000}/new`): button.compose= "New Message"
 
   main
     each message in messages
