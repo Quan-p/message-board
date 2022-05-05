@@ -8,7 +8,8 @@
     "serverstart": "DEBUG=message-baord:* npm run devstart"
   },
   "engines": {
-    "node": "10.x.y"
+    "node": "16.15.0",
+    "npm": "8.8.0"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
