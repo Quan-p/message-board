@@ -1,8 +1,86 @@
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: #E6BA95;
 }
 
 a {
-  color: #00B7FF;
+  color: #FAFDD6;
+}
+
+h1 {
+  font-size: 70px;
+  color: #5a644c;
+}
+
+.sub-title {
+  font-size: 24px;
+}
+
+.compose {
+  width: 180px;
+  height: 50px;
+  border-radius: 15px;
+  border: none;
+  cursor: pointer;
+  background-color: #E4E9BE;
+}
+
+.compose:hover {
+  transition: 0.5s;
+  background-color: #A2B38B;
+}
+
+.h2
+
+.message-card {
+  border: none;
+  background-color: #FAFDD6;
+  padding: 15px;
+  margin: 20px;
+  border-radius: 15px;
+}
+
+.description {
+  border-radius: 15px;
+  background-color: #E4E9BE;
+  padding: 10px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  background-color: #E4E9BE;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+#title {
+  margin: 20px;
+  height: 40px;
+  font-size: 18px;
+}
+
+.text-input {
+  margin: 20px;
+  height: 150px;
+  font-size: 16px;
+}
+
+.form-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 100px;
+  margin-left: 20px;
+  border-radius: 15px;
+  background-color: transparent;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+#submit-btn:hover {
+  transition: 0.5s;
+  background-color: #A2B38B;
 }

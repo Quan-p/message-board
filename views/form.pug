@@ -3,11 +3,11 @@ extends layout
 block content 
     header
         h1= 'Message Board'
-        p= 'Message whatever you want'
+        p(class='sub-title')= 'Message whatever you want'
     main 
         section.form-container
         <form method="POST" action="/new">
-            input(type='text', placeholder='Name' name='title' id='title')
-            textarea(name='description' placeholder='Type your message here!' cols='30' )
-            button(type='submit' id='submit-btn')= 'Submit'
-        
+            input(type='text' class='name-input' placeholder='Name' name='title' id='title')
+            textarea(name='description' class='text-input' placeholder='Type your message here!' cols='30' )
+            button(type='submit' class='form-btn')= 'Submit' 
+            button( class='form-btn' href=`http://localhost:${process.env.PORT || 3000}/`): = "Back"
