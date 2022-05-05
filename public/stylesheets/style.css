@@ -67,13 +67,19 @@ form {
   font-size: 16px;
 }
 
-.form-btn {
+.back-btn {
+  text-decoration: none;
+  color: black;
+}
+
+.form-btn, .back-btn {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 40px;
   width: 100px;
   margin-left: 20px;
+  margin-bottom: 10px;
   border-radius: 15px;
   background-color: transparent;
   border: 1px solid black;
