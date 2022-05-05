@@ -7,7 +7,9 @@
     "devstart": "nodemon ./bin/www",
     "serverstart": "DEBUG=message-baord:* npm run devstart"
   },
-  "engines": { "node": "10.x.y" },
+  "engines": {
+    "node": "10.x.y"
+  },
   "dependencies": {
     "cookie-parser": "~1.4.4",
     "debug": "~2.6.9",
@@ -18,5 +20,18 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.16"
-  }
+  },
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Quan-p/message-board.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Quan-p/message-board/issues"
+  },
+  "homepage": "https://github.com/Quan-p/message-board#readme",
+  "description": ""
 }
